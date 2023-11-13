@@ -107,6 +107,21 @@ body {
    cursor: pointer;
 }
 
+.top__card {
+  background-color: #FF8D30;
+}
+.top__card--one {
+  background-color: #FFA530;
+}
+.top__card--two {
+  background-color: #FFA530;
+}
+.top__card--three {
+  background-color: #FFBD30;
+}
+.top__card--four {
+  background-color: #FFD74B
+}
 
 
 /* Header content*/
@@ -115,8 +130,7 @@ body {
   background-image: url(/img/globe.png);
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 23px;
-  
+  margin-top: 23px; 
 }
 
 .top__content {
