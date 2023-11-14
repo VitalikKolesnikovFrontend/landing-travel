@@ -18,7 +18,7 @@
   src: url(/fonts/Blogger_Sans.otf);
 }
 
-
+/* 
 
 html {
   box-sizing: border-box;
@@ -121,10 +121,10 @@ body {
 }
 .top__card--four {
   background-color: #FFD74B
-}
+} */
 
 
-/* Header content*/
+/* Header content
 
 .top {
   background-image: url(/img/globe.png);
@@ -192,7 +192,7 @@ margin-top: 45px;
   background-color: #FF8D30;
 }
 
-/* Service content */
+
 
 .service__content {
   display: flex;
@@ -248,10 +248,9 @@ margin-top: 45px;
   margin-right: 32px;
   cursor: pointer;
 }
+ */
 
 
-
-/* Section countries */
 
 
 
