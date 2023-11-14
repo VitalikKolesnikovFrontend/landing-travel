@@ -266,6 +266,8 @@ a {
 /* COUNTRIES */
 .countries {
   background-color: #EDEFF6;
+  border-bottom-right-radius: 65px;
+  border-bottom-left-radius: 65px;
 }
 .countries__content {
   display: flex;
@@ -373,4 +375,53 @@ a {
     position: absolute;
     right: 0;
     z-index: -1;
+}
+
+/* TRAVELERS */
+
+.travelers__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 134px;
+  margin-bottom: 134px;
+}
+.travelers__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info__title {
+  color: #FF8D30;
+  font-family: Blogger Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+.info__text {
+  max-width: 427px;
+  max-height: 132px;
+  color: #FFF;
+  font-family: Blogger Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 300;
+  margin-bottom: 42px;
+}
+.info__textsecond {
+  width: 260px;
+  height: 48px;
+  color: #FFF;
+  font-family: Blogger Sans;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 85px;
+}
+.user__card {
+  margin-right: 60px;
+}
+.travelers__button img {
+  padding-right: 33px;
 }
