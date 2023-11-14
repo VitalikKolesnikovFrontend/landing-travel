@@ -40,8 +40,9 @@ a {
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
-  margin-left: 32px;
+  margin-left: 0;
   margin-right: 32px;
+  padding-left: 33px;
   cursor: pointer;
 }
 .container {
@@ -222,6 +223,9 @@ a {
 
 /* SERVICE */ 
 
+.service {
+  border-radius: 15px ;
+}
 .service__content {
   display: flex;
   align-items: center;
@@ -260,10 +264,113 @@ a {
 }
 
 /* COUNTRIES */
+.countries {
+  background-color: #EDEFF6;
+}
+.countries__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.countries__item {
+  color: var(--special_grey, #444);
+  margin-top: 161px;
+  border-radius: 20px;
+  position: relative;
+}
+.countries__item h1 {
+  color: #000;
+}
 
+.countries__item_tha {
+  width: 560px;
+  height: 140px;
+  background-color: #fff;
+  background-image: url(/img/thailand-bg.png);
+  position: relative;
+}
 
+.countries__item_fra {
+  width: 560px;
+  height: 140px;
+  background-color: #fff;
+  background-image: url(/img/france-bg.png);
+  margin-top: 10px;
+  position: relative;
+}
+.countries__item_che {
+  width: 560px;
+  height: 140px;
+  background-color: #fff;
+  background-image: url(/img/czech-bg.png);
+  margin-top: 10px;
+  margin-bottom: 100px;
+  position: relative;
+}
+.countries__logo {
+  width: 70px;
+  height: 47px;
+}
+.countries__info {
+  margin-left: 172px;
+  text-align: left;
+}
+.countries__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 33px;
+}
+.countries__button img {
+  padding-right: 33px;
+}
 
+.countries__title {
+  color: #FF8D30;
+  font-family: Blogger Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+}
+.countries__text {
+  width: 378px;
+  height: 165px;
+  color:  #444;
+  font-family: Blogger Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 300;
+}
 
+.countries__user {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
 
+.user__count {
+  margin-left: 8px;
+}
 
+.countries__item img {
+  position: absolute;
+  top: 46px;
+  left: 338px;
+}
 
+.countries__card {
+  position: relative;
+}
+.rectangle__countries {
+  position: absolute;
+  left: -51px;
+  top: 110px;
+}
+.flags {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
