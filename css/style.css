@@ -19,7 +19,7 @@
 }
 
 body {
-  background-color: #192144;
+  background-color: #161C34;
   font-family: 'Blogger sans', sans-serif;
   font-size: 14px;
 }
@@ -31,7 +31,7 @@ a {
   margin: 0px auto;
 }
 .header {
-  border-color: #192144;
+  background-color: #161C34;
   padding-top: 46px;
 }
 .menu {
@@ -41,6 +41,7 @@ a {
 }
 .nav {
   margin-right: 250px;
+  margin-left: 30px;
 }
 .nav__item {
   text-decoration: none;
@@ -90,115 +91,128 @@ a {
 /* HERO */
 
 
-
-
-
-
-
-
-/* 
-
-
-
-.header__inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 46px;
+.hero {
+  background: url(/img/globe.png) no-repeat center / cover ;
+  height: 650px;
+  padding-top: 11px;
 }
-
-.menu__list {
-  display: flex;
-  align-items: center;
-  gap: 0 34px;
-  font-size: 19px;
-  font-weight: 400;
-  line-height: 20px; 
-  text-transform: uppercase;
-  margin-right: 280px;
-}
-
-.user-actions {
-  display: flex;
-  align-items: center;
-  gap: 0;
-}
-
-
-.top__card {
-  background-color: #FF8D30;
-}
-.top__card--one {
-  background-color: #FFA530;
-}
-.top__card--two {
-  background-color: #FFA530;
-}
-.top__card--three {
-  background-color: #FFBD30;
-}
-.top__card--four {
-  background-color: #FFD74B
-} */
-
-
-/* Header content
-
-.top {
-  background-image: url(/img/globe.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 23px; 
-}
-
-.top__content {
+.hero__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
 }
-
-.top__title {
+.title {
   width: 418px;
   height: 210px;
   margin-left: 127px;
-  margin-top: 112px;
+  margin-top: -110px;
   color: #FFF;
   font-family: Blogger Sans;
   font-size: 60px;
   font-style: normal;
   font-weight: 700;
-  margin-right: 59px;
-  margin-top: -65px;
+  padding-right: 59px;
 }
-
-.top__text {
+.main__text {
   margin-top: -122px;
 }
+.hero__text {
+  color: #FFF;
+  font-family: Blogger Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 300;
+  text-align: left;
+  padding-left: 59px;
+  width: 100%;
+}
+.hero__secondtext {
+  color: #FFF;
+  font-family: Blogger Sans;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 59px;
+  width: 100%;
+  text-align: left;
+}
 
-.top__title-textone {
-color: #FFF;
-font-family: Blogger Sans;
-font-size: 28px;
-font-style: normal;
-font-weight: 300;
-margin-left: 59px;
-width: 100%;
-height: 100%;
-text-align: left;
+.hero__info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -200px;
 }
-.top__title-texttwo {
-color: #FFF;
-font-family: Blogger Sans;
-font-size: 21px;
-font-style: normal;
-font-weight: 700;
-margin-left: 59px;
-width: 100%;
-height: 100%;
-text-align: left;
-margin-top: 45px;
+.card {
+  width: 315px;
+  height: 107px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px
 }
+.card__text {
+  color: #161C35;
+  font-family: Blogger Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+.card__count {
+  color: #FFF;
+  font-family: Blogger Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  padding-right: 29px;
+}
+.hero__card1 {
+  background-color: #FF8D30;
+  
+}
+.hero__card2 {
+  background-color: #FFA530;
+ 
+}
+.hero__card3 {
+  background-color: #FFBD30;
+  
+}
+.hero__card4 {
+  background-color: #FFD74B;
+
+}
+
+
+/* HEADER LIGHT */
+
+
+.header__light {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+.nav__item-light {
+  color: #192144;
+}
+
+/* 
+
+
+
+
+
+
+
+
+/* Header content
+
+
 
 .top__pages {
   display: flex;
