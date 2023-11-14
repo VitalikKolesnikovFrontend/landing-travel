@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
   <title>Document</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
       </div>
       <nav class="nav menu__nav">
         <a href="#">
-          <img src="/img/Rectangle.png" alt="Rectangle">
+          <img class="nav__item" src="/img/Rectangle.png" alt="Rectangle">
         </a>
         <a href="#" class="nav__item">о сервисе</a>
         <a href="#" class="nav__item">направления</a>
@@ -26,7 +27,7 @@
         <button class="phone contacts__phone">
           <img src="/img/phone.png" alt="phone">
         </button>
-        <button class="phone contacts__phone">
+        <button class="mail contacts__mail">
           <img src="/img/message.png" alt="mail">
         </button>
         <button class="authorization contacts__authorization">авторизация</button>
@@ -37,28 +38,30 @@
 
 <main>
   <section class="hero">
-    <div class="hero__content">
-      <h1 class="title hero__title">В путешествие крутыми попутчиками!</h1>
-      <img src="/img/traveller.png" alt="traveller" class="traveller hero__traveller">
-      <h2 class="hero__text">«Лучшее приложение,что я видел в жизни!»</h2>
-      <p class="hero__secondtext">Мурат Эльтазинглавный редактор газеты «гаджетлайф»</p>
-    </div>
-    <div class="hero__info">
-      <div class="card hero__card">
-        <p class="card__text">Выберите направление</p>
-        <p class="card__count">1</p>
+    <div class="container">
+      <div class="hero__content">
+        <h1 class="title hero__title">В путешествие крутыми попутчиками!</h1>
+        <img src="/img/traveller.png" alt="traveller" class="traveller hero__traveller">
+        <h2 class="hero__text">«Лучшее приложение,что я видел в жизни!»</h2>
+        <p class="hero__secondtext">Мурат Эльтазинглавный редактор газеты «гаджетлайф»</p>
       </div>
-      <div class="card hero__card">
-        <p class="card__text">Изучите идеи путешественников</p>
-        <p class="card__count">2</p>
-      </div>
-      <div class="card hero__card">
-        <p class="card__text">Находите тех,кто похож на вас</p>
-        <p class="card__count">3</p>
-      </div>
-      <div class="card hero__card">
-        <p class="card__text">Путешествуйте вместе!</p>
-        <p class="card__count">4</p>
+      <div class="hero__info">
+        <div class="card hero__card">
+          <p class="card__text">Выберите направление</p>
+          <p class="card__count">1</p>
+        </div>
+        <div class="card hero__card">
+          <p class="card__text">Изучите идеи путешественников</p>
+          <p class="card__count">2</p>
+        </div>
+        <div class="card hero__card">
+          <p class="card__text">Находите тех,кто похож на вас</p>
+          <p class="card__count">3</p>
+        </div>
+        <div class="card hero__card">
+          <p class="card__text">Путешествуйте вместе!</p>
+          <p class="card__count">4</p>
+        </div>
       </div>
     </div>
   </section>
