@@ -425,3 +425,88 @@ a {
 .travelers__button img {
   padding-right: 33px;
 }
+
+
+/* PROFILE */
+
+.profile {
+  background-color: #EDEFF6;
+  position: relative;
+}
+.profile__title {
+color: #FF8D30;
+font-family: Blogger Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+margin: 0px auto;
+text-align: center;
+padding-top: 107px;
+}
+.profile__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 153px;
+}
+.profile__bisness {
+  display: flex;
+}
+.profile__list {
+  list-style: none;
+}
+.profile__item {
+  display: flex;
+  align-items: center;
+}
+.profile__item p {
+  color: var(--special_grey, #444);
+  font-family: Blogger Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 300;
+  margin-left: 23px;
+  border-top: solid #E1E3E9;
+  border-bottom: solid #E1E3E9;
+}
+.profile__price {
+  color: var(--special_grey, #444);
+  text-align: right;
+  font-family: Blogger Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 300;
+  margin-top: 51px;
+  text-align: center;
+}
+.profile__prices {
+  width: 446px;
+  height: 300px;
+  background: #E2E5F2;
+  list-style: none;
+  border-radius: 25px;
+}
+.business__button {
+  width: 68px;
+  height: 68px;
+  background-color: #E2E5F2;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.profile__business {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  color: #132576;
+  font-family: Blogger Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.profile__rates {
+  position: absolute;
+  top: 356px;
+  left: 1515px;
+
+}
