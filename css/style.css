@@ -26,6 +26,24 @@ body {
 a {
   text-decoration: none;
 }
+.button {
+  width: 274px;
+  height: 80px;
+  background: #FFD74B;
+  border-radius: 20px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #1D2E5B;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 32px;
+  margin-right: 32px;
+  cursor: pointer;
+}
 .container {
   max-width: 1320px;
   margin: 0px auto;
@@ -201,35 +219,17 @@ a {
   color: #192144;
 }
 
-/* 
 
-
-
-
-
-
-
-
-/* Header content
-
-
-
-.top__pages {
-  display: flex;
-}
-
-.top__column {
-  width: 345px;
-  height: 107px;
-  background-color: #FF8D30;
-}
-
-
+/* SERVICE */ 
 
 .service__content {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+.service__info {
+  text-align: left;
 }
 
 .service__title {
@@ -237,17 +237,17 @@ a {
   font-size: 45px;
   font-style: normal;
   font-weight: 700;
+  width: 197px;
+  height: 45px;
 }
-
-.service__textone {
+.service__text {
   color: #FFF;
   font-family: Blogger Sans;
   font-size: 28px;
   font-style: normal;
   font-weight: 300;
 }
-
-.service__texttwo {
+.service__textsecond {
   color: #FFF;
   font-family: Blogger Sans;
   font-size: 21px;
@@ -255,32 +255,13 @@ a {
   font-weight: 700;
   width: 425px;
 }
-
-.service__btn {
-  width: 274px;
-  height: 80px;
-  background: #FFD74B;
-  border-radius: 20px;
-  border: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.service__button {
+  margin-left: 0;
 }
 
-.btn__text {
-  color: #1D2E5B;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  margin-left: 32px;
-}
+/* COUNTRIES */
 
-.btn__img {
-  margin-right: 32px;
-  cursor: pointer;
-}
- */
+
 
 
 
