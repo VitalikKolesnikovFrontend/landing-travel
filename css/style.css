@@ -79,7 +79,7 @@ button {
 }
 .nav img {
   position: absolute;
-  left: -37px;
+  left: -58px;
   top: 8px;
 }
 .nav__item {
@@ -183,6 +183,7 @@ button {
   width: 345px;
   height: 107px;
   border-radius: 10px;
+  margin-right: -22px;
 }
 .hero__card_one {
   background-color: #ff8d30;
@@ -211,7 +212,7 @@ button {
   font-style: normal;
   font-weight: 700;
   line-height: 24px; /* 100% */
-  padding-right: 15px;
+  padding-right: 44px;
 }
 
 .header_light {
@@ -230,6 +231,15 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.service__info {
+  position: relative;
+}
+.service__back {
+    position: absolute;
+    top: -45px;
+    left: -70px;
+    z-index: -1;
 }
 .service__title {
   color: var(--special_orange, #ff8d30);
@@ -312,8 +322,7 @@ button {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 20px; /* 100% */
-  padding-top: 15px;
+  line-height: 20px; /* 100% */ 
   padding-left: 25px;
 }
 .countries__count{
@@ -324,7 +333,7 @@ button {
 .countries__user {
   display: flex;
   align-items: center;
-  
+  margin-left: 19px;
 }
 .countries__flag_tha {
   position: absolute;
@@ -386,6 +395,7 @@ width: 430px;
   justify-content: space-between;
   padding-top: 134px;
   padding-bottom: 134px;
+  position: relative;
 }
 .travellers__cards {
   display: flex;
@@ -416,6 +426,23 @@ width: 260px;
 }
 .card__imagetwo {
   margin-left: 60px;
+}
+.travellers__back {
+  position: absolute;
+  left: -47px;
+  top: 78px;
+  z-index: -1;
+}
+.travellers__user {
+  position: absolute;
+  top: 135px;
+  left: 455px;
+}
+.travellers__seconduser {
+  position: absolute;
+  top: 368px;
+  left: 94px;
+  z-index: -1;
 }
 
 /* profile */
@@ -617,6 +644,7 @@ border: none;
   padding-bottom: 61px;
   border-bottom-left-radius: 60px;
   border-bottom-right-radius: 60px;
+
 }
 .address__button {
   border: 3px solid #192144;
@@ -651,4 +679,63 @@ font-weight: 700;
 line-height: 28px; /* 100% */
 text-transform: uppercase;
 margin-left: 31px;
+}
+
+.map__img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.map__content {
+  position: relative;
+}
+.map__geo {
+  position: absolute;
+  left: 837px;
+  top: 258px;
+}
+
+.footer {
+  background-color: #fff;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  height: 152px;
+}
+.footer__content {
+  padding-top: 47px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__social {
+  display: flex;
+  align-items: center;
+}
+.logo__footer {
+  padding-left: 60px;
+}
+.button__social {
+  width: 62px;
+  height: 62px;
+  background-color: #FFD74B;
+  border-radius: 50px;
+  border: none;
+}
+
+.footer__dev {
+  display: flex;
+  align-items: center;
+}
+
+.dev__text {
+  color: var(--special_grey, #444);
+font-family: Blogger Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 100% */
+margin-right: 20px;
+}
+.footer__dev {
+  margin-right: 60px;
 }
