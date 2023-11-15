@@ -222,6 +222,10 @@ button {
 }
 
 /*service*/
+.service {
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
 .service__content {
   display: flex;
   justify-content: space-between;
@@ -263,7 +267,8 @@ button {
 
 .countries {
   background-color: #EDEFF6;
-
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
 }
 
 .countries__content {
@@ -371,7 +376,10 @@ width: 430px;
 
 
 /* travellers */
-
+.travallers {
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
 .travellers__content {
   display: flex;
   align-items: center;
@@ -416,6 +424,8 @@ width: 260px;
   color: #444444;
   padding-top: 107px;
   padding-bottom: 187px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
 }
 .profile__content {
   display: flex;
@@ -498,6 +508,8 @@ width: 260px;
 /* registration */ 
 .registration {
   background-color: #192144;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
 }
 .registration__content {
   text-align: center;
@@ -595,4 +607,48 @@ border: none;
   line-height: 28px; /* 100% */
   text-transform: uppercase;
   margin-left: 31px;
+}
+
+/* address */
+
+.address {
+  background-color: #FFD74B;
+  padding-top: 60px;
+  padding-bottom: 61px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+.address__button {
+  border: 3px solid #192144;
+  margin: 0;
+}
+.address__button p {
+  font-size: 18px;
+}
+.address__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.address__name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name__button {
+  width: 90px;
+  height: 90px;
+  background-color: #121936;
+  border-radius: 50px;
+  border: none;
+}
+.address__text {
+  color: var(--basic_blue_light, #1D2E5B);
+font-family: Blogger Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 100% */
+text-transform: uppercase;
+margin-left: 31px;
 }
