@@ -226,6 +226,7 @@ button {
 .service {
   border-bottom-left-radius: 60px;
   border-bottom-right-radius: 60px;
+  background-color: #161c35;
 }
 .service__content {
   display: flex;
@@ -453,6 +454,7 @@ width: 260px;
   padding-bottom: 187px;
   border-bottom-left-radius: 60px;
   border-bottom-right-radius: 60px;
+  position: relative;
 }
 .profile__content {
   display: flex;
@@ -738,4 +740,63 @@ margin-right: 20px;
 }
 .footer__dev {
   margin-right: 60px;
+}
+
+.modal__active {
+  width: 750px;
+  height: 526px;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 0px 4px 22px 0px rgba(29, 46, 91, 0.18);
+  margin: auto;
+  position: absolute;
+  left: 550px;
+  top: 89px;
+}
+.modal {
+display: none;
+}
+.modal__title {
+  color: var(--special_orange, #FF8D30);
+  font-family: Blogger Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 45px; /* 100% */
+  padding-top: 54px;
+}
+.modal__list {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-self: center;
+  justify-content: center;
+  margin-top: 58px;
+  margin-bottom: 126px;
+  grid-row-gap: 24px;
+}
+.modal__content {
+  text-align: center;
+}
+.modal__item {
+  color: var(--special_grey, #444);
+  font-family: Blogger Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 127.273% */
+  border-bottom: 1px solid #F3F4F8;
+}
+.modal__button {
+  width: 750px;
+  height: 108px;
+  background-color: #F3F4F8;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: none;
+  color: var(--basic_blue_light, #1D2E5B);
+  font-family: Blogger Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 108.333% */
 }
