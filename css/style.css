@@ -594,6 +594,13 @@ width: 260px;
 }
 .business__text {
   margin-left: 15px;
+  cursor: pointer;
+}
+.profile__mobile-list {
+  display: none;
+}
+.rates__mobile {
+  display: none;
 }
 
 
@@ -1101,6 +1108,70 @@ display: none;
     left: 371px;
     z-index: -1;
   }
+  .profile__title {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .profile__price {
+    width: 198px;
+    height: 285px;
+  }
+  .price__rates {
+    top: 205px;
+    right: 50px;
+    width: 100px;
+    height: 100px;
+  }
+  .price__list {
+    padding: 0;
+  }
+  .profile {
+    padding-top: 74px;
+    padding-bottom: 41px;
+  }
+  .business__text {
+    color: #132576;
+    font-family: Blogger Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .registration__title {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    width: 393px;
+    margin: auto;
+  }
+  .registration__text {
+    text-align: center;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 300;
+    
+  }
+  .registration__input {
+    width: 616px;
+  }
+  .registration__contacts {
+    display: block;
+  }
+  .registration__mail {
+    margin-left: 0;
+  }
+  .registration__button {
+    left: 564px;
+    top: 177px;
+    width: 80px;
+    height: 80px;
+  }
+  .button__text-registration {
+    display: none;
+  }
+  .button__img {
+    margin-left: 28px;
+  }
 }
 @media screen and (max-width: 677px) {
   .hero {
@@ -1313,4 +1384,106 @@ display: none;
     height: 132px;
     top: 130px;
   }
+  .profile__content {
+    display: none;
+  }
+  .profile__title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    width: 107px;
+    text-align: left;
+  }
+  .business__icon {
+    display: none;
+  }
+  .business__text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+    width: 219px;
+    height: 16px;
+  }
+  .profile__business {
+    padding: 0;
+  }
+  .circle__mobile {
+    width: 34px;
+    height: 34px;
+    margin-bottom: 26px;
+    margin-bottom: 39px;
+    margin-left: 15px;
 }
+  
+  .profile__mobile-list {
+    display: flex;
+  }
+  .circle__mobile-items {
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile-item__text {
+    margin-bottom: -14px;
+  }
+  .profile__mobile-item {
+    padding-bottom: 15px;
+  }
+  .rates__mobile {
+    display: flex;
+    margin-left: 38px;
+  }
+  .profile__rates {
+    display: flex;
+  }
+  .profile__mobile {
+    margin-top: 31px;
+  }
+  .registration__input {
+    width: 280px;
+    margin-left: -25px;
+}
+.registration__button {
+  left: 174px;
+  top: 226px;
+  width: 80px;
+  height: 80px;
+}
+.registration__title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  width: 210px;
+}
+.registration__text {
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  width: 210px;
+}
+.phone__number {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+.mail__name {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+}
+.contacts__button {
+  width: 45px;
+  height: 45px;
+}
+.contacts__button img {
+  width: 25px;
+  height: 26px;
+}
+.registration__mail {
+  width: 263px;
+}
+}
+
