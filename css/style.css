@@ -1065,6 +1065,42 @@ display: none;
     left: 25px;
     top: 461px;
 }
+  .travellers__title {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .travellers__subtitle {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    width: 427px;
+  }
+  .travellers__text {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    width: 260px;
+    margin-bottom: 59px;
+  }
+  .travellers__content {
+    display: block;
+  }
+  .button__travellers {
+    display: none;
+  }
+  .travellers__user {
+    position: absolute;
+    top: 421px;
+    left: -38px;
+    z-index: -1;
+}
+  .travellers__seconduser {
+    position: absolute;
+    top: 60px;
+    left: 371px;
+    z-index: -1;
+  }
 }
 @media screen and (max-width: 677px) {
   .hero {
@@ -1213,6 +1249,7 @@ display: none;
     height: 62px;
     flex-shrink: 0;
     margin-top: 25px;
+    margin-left: -22px;
   }
   .button__text {
     font-size: 18px;
@@ -1237,5 +1274,43 @@ display: none;
     flex-direction: column;
     order: 2;
     margin-top: 60px;
+  }
+  .travellers__cards {
+    display: block;
+    margin-left: -30px;
+  }
+  .card__imagetwo {
+    margin: 0;
+  }
+  .travellers__title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .travellers__subtitle {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    width: 217px;
+  }
+  .travellers__text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .travellers__user {
+    top: 129px;
+    left: 98px;
+  }
+  .travellers__seconduser {
+    width: 64px;
+    height: 71px;
+    left: -42px;
+    top: 453px;
+  }
+  .travellers__back {
+    width: 113px;
+    height: 132px;
+    top: 130px;
   }
 }
