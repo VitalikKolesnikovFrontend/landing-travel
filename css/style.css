@@ -285,6 +285,9 @@ button {
 .service__info {
   position: relative;
 }
+.service__tablet {
+  display: none;
+}
 .service__back {
     position: absolute;
     top: -45px;
@@ -323,8 +326,8 @@ button {
   margin-bottom: 163px;
 }
 .service__img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 630px;
+  height: 665px;
 }
 
 
@@ -334,6 +337,9 @@ button {
   background-color: #EDEFF6;
   border-bottom-left-radius: 60px;
   border-bottom-right-radius: 60px;
+}
+.button__tablet {
+  display: none;
 }
 
 .countries__content {
@@ -353,6 +359,9 @@ button {
 .countries__cards {
   position: relative;
   z-index: 1;
+}
+.countries__mobile {
+  display: none;
 }
 .countries__card_tha {
   background-image: url(/img/thailand-bg.png);
@@ -891,6 +900,13 @@ display: none;
   .hero__cards {
     margin-bottom: -62px;
   }
+  .service__img {
+    width: 530px;
+    height: 565px;
+}
+.service__subtitle {
+  width: 512px;
+}
 }
 
 @media screen and (max-width: 927px) {
@@ -907,10 +923,24 @@ display: none;
   .hero__secondtext {
     font-size: 15px;
   }
+  .header_light {
+    display: none;
+  }
 } 
 
 @media screen and (max-width: 1318px) {
-  
+  .service__title {
+    font-size: 35px;
+  }
+  .service__subtitle {
+    font-size: 18px;
+  }
+  .service__text {
+    font-size: 18px;
+  }
+  .service__img {
+
+  }
 }
 @media screen and (max-width: 1086px) {
   .nav {
@@ -942,7 +972,9 @@ display: none;
     position: relative;
   }
 .hero__cards {
-  margin-bottom: -200px;
+    bottom: 100px;
+    flex-wrap: wrap;
+    left: 100px;
 }
 .hero__card {
   width: 271px;
@@ -965,48 +997,74 @@ display: none;
     font-size: 21px;
   }
 
-  /* .nav__item {
+  .header_light {
     display: none;
   }
-  .container {
-    max-width: 688px;
-  }
-  .logo {
-    margin-left: 40px ;
-    margin-top: 40px;
-  }
 
-  .hero__title {
-    width: 399px;
-    height: 210px;
-    text-align: center;
-    font-size: 60px;
+  .service__subtitle {
+    width: 308px;
+    font-size: 26px;
+  }
+  .service__content {
+    margin-top: 300px;
+  }
+  .service__text {
+    width: 265px;
+    font-size: 20px;
+    margin-top: 150px;
+  }
+  .service__img {
+    display: none;
+  }
+  .service__tablet {
+    display: block;
+  }
+  .button__service {
+    margin-bottom: 50px;
+  }
+  .button {
+    width: 276px;
+    height: 80px;
+  }
+  .countries__content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 73px;
+    padding-bottom: 80px;
+  }
+  .countries__cards {
+    order: 2;
+  } 
+  .countries__info {
+    order: 1;
+    margin-left: 0;
+    margin-right: 151px;
+  }
+  .countries__title {
+    font-size: 45px;
     font-style: normal;
     font-weight: 700;
-    margin-bottom: 0px;
-    margin-left: 388px;
   }
-  .hero__image {
-    margin-left: 550px;
+  .countries__subtitle {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    width: 378px;
   }
-  .hero__content {
-    display: block;
-    align-items:;
+  .button__countries {
+    display: none;
   }
-  .hero__cards {
-    display: grid;
-    grid-template-columns: 360px 344px;
-    grid-column-gap: 0px;
-    bottom: -140px;
-    left: 235px;
+  .button__tablet {
+    display: flex;
+    order: 3;
+    width: 618px;
+    height: 82px;
   }
-  .menu__contacts {
-    margin-left: 330px;
-  }
-  .hero__card {
-    width: 385px;
-    height: 155px;
-  } */
+  .countries__rectangle {
+    position: absolute;
+    left: 25px;
+    top: 461px;
+}
 }
 @media screen and (max-width: 677px) {
   .hero {
@@ -1026,5 +1084,158 @@ display: none;
   }
   .menu__burger {
     margin-left: 100px;
+  }
+  .hero__cards {
+    display: none;
+  }
+}
+@media screen and (max-width: 320px) {
+  .traveller__mobile {
+    width: 192px;
+    height: 255px;
+  }
+  .header__content {
+    display: block;
+  }
+  .hero__title {
+    width: 238px;
+    height: 118px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  .hero__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero__text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 18px;
+  }
+  .hero__secondtext {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .traveller__mobile {
+    position: static;
+    order: 1;
+  }
+  .hero__info {
+    margin: 0;
+    order: 2;
+    margin-top: 48px;
+  }
+  .phone {
+    display: initial;
+  }
+  .mail {
+    display: initial;
+  }
+  .authorization {
+    display: initial;
+  }
+  .menu {
+    position: relative;
+  }
+  .contacts {
+    position: absolute;
+    top: 440px;
+    z-index: 1;
+    left: -34px;
+  }
+  .hero__cards {
+    display: flex;
+    flex-direction: column;
+    left: 42px;
+    bottom: -400px;
+  }
+  .hero__card {
+    width: 238px;
+    height: 130px;
+  }
+  .card-title {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .card-count {
+    font-size: 18px;
+  }
+  .service__tablet {
+    display: none;
+  }
+  .button__service {
+    display: none;
+  }
+  .service {
+    background: url(/img/about-mobile.png) no-repeat center / cover;
+  }
+  .service__content {
+    margin-top: 600px;
+  }
+  .service__title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 19px;
+  }
+  .service__subtitle {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    width: 211px;
+    margin-bottom: 19px;
+  }
+  .service__text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    width: 202px;
+    margin-bottom: 82px;
+    margin-top: 100px;
+  }
+  .countries__cards {
+    display: none;
+  }
+  .countries__flags {
+    display: none;
+  }
+  .countries__rectangle {
+    display: none;
+  }
+  .button__tablet {
+    width: 270px;
+    height: 62px;
+    flex-shrink: 0;
+    margin-top: 25px;
+  }
+  .button__text {
+    font-size: 18px;
+  }
+  .countries__title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    width: 144px;
+  }
+  .countries__subtitle {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    width: 216px;
+  }
+  .countries__info {
+    margin-right: 0;
+  }
+  .countries__mobile {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+    margin-top: 60px;
   }
 }
