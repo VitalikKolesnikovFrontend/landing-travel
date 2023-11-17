@@ -1172,6 +1172,20 @@ display: none;
   .button__img {
     margin-left: 28px;
   }
+  .address__content {
+    display: block;
+  }
+  .address__button {
+    margin-top: 44px;
+    width: 618px;
+    margin-left: 25px;
+  }
+  .address__text {
+    margin-right: 70px;
+  }
+  .address__name {
+    margin-left: 40px;
+  }
 }
 @media screen and (max-width: 677px) {
   .hero {
@@ -1484,6 +1498,34 @@ display: none;
 }
 .registration__mail {
   width: 263px;
+}
+.address__button {
+  width: 270px;
+  margin-left: -20px;
+}
+.address__text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px
+}
+.name__button {
+  width: 45px;
+  height: 45px;
+}
+.address__img {
+  width: 21px;
+  height: 21px;
+}
+.address__name {
+  margin-left: 7px;
+  width: 350px;
+  height: 44px;
+  
+}
+.address__button p {
+  font-size: 14px;
+  padding-left: 22px;
 }
 }
 
