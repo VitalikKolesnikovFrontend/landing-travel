@@ -777,6 +777,9 @@ margin-left: 31px;
   left: 837px;
   top: 258px;
 }
+.map__img-mobile {
+  display: none;
+}
 
 .footer {
   background-color: #fff;
@@ -884,7 +887,9 @@ display: none;
 .traveller__mobile {
   display: none;
 }
-
+.logo__mobile-footer {
+  display: none;
+}
 
 @media screen and (max-width: 1400px) {
   .hero__cards {
@@ -1185,6 +1190,10 @@ display: none;
   }
   .address__name {
     margin-left: 40px;
+  }
+  .map__geo {
+    left: 318px;
+    top: 84px;
   }
 }
 @media screen and (max-width: 677px) {
@@ -1526,6 +1535,45 @@ display: none;
 .address__button p {
   font-size: 14px;
   padding-left: 22px;
+}
+.map__geo {
+  left: 140px;
+  top: 121px;
+}
+.map__img {
+  display: none;
+}
+.logo__footer {
+  display: none;
+}
+.footer__content {
+  display: flex;
+  flex-direction: column;
+}
+.footer__dev {
+  margin: 0;
+  margin-top: 20px;
+}
+.logo__mobile-footer {
+  display: flex;
+  color: #121936;
+}
+.button__social {
+  width: 45px;
+  height: 45px;
+}
+.map__img-mobile {
+  display: block;
+}
+.footer {
+  width: 320px;
+  height: 239px;
+}
+.map {
+  
+}
+.footer__social {
+  margin-top: 48px;
 }
 }
 
