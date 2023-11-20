@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
       logoMenuBurger.src = '/img/icon_menu_mobile-light.png'
       logoMenuBurger.style.background = '#fff'
       logoMobile.src = '/img/logo_mobile 1.png'
-      heroCards.style.bottom = '-330' + 'px'
+       heroCards.style.bottom = '186' + 'px'
     } else {
       header.classList.remove('fixed')
       navItemOne.classList.remove('light')
