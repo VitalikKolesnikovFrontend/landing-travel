@@ -1710,5 +1710,8 @@ position: relative;
 .hero__cards {
   /* bottom: -93px; */
 }
+.modal__menu-list {
+  padding-left: 0px;
+}
 }
 

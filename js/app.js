@@ -15,6 +15,8 @@ document.addEventListener('DOMContentLoaded', function(event) {
   let heroCards = document.querySelector('.hero__cards');
   let logoMenuBurger = document.querySelector('.menu-burger-icon')
   let logoMobile = document.querySelector('.logo__mobile');
+  let businessText = document.querySelector('.business__text');
+  console.log(businessText);
   
   
   menuBurger.addEventListener('click', () => {
