@@ -39,6 +39,7 @@ body {
   background-color: #161c35;
   color: #fff;
   font-family: 'Blogger sans', sans-serif;
+  margin: 0;
 }
 
 a {
@@ -405,6 +406,17 @@ button {
 }
 .countries__card_che {
   background-image: url(/img/czech-bg.png);
+  position: relative;
+}
+.countries__card_che::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url(/img/fade\ 1.png);
+  left: 0;
+  top: 59px;
 }
 .countries__name h1 {
   color: #000;
@@ -536,7 +548,7 @@ width: 260px;
 .travellers__user {
   position: absolute;
   top: 135px;
-  left: 455px;
+  left: 429px;
 }
 .travellers__seconduser {
   position: absolute;
@@ -655,8 +667,7 @@ width: 260px;
   max-width: 100%;
   max-height: 100%;
   background-color: #192144;
-  border-bottom-left-radius: 60px;
-  border-bottom-right-radius: 60px;
+
 }
 .registration__close {
   display: none;
@@ -813,9 +824,12 @@ margin-left: 31px;
   width: 100%;
   height: 100%;
   background-size: cover;
+  
 }
 .map__content {
   position: relative;
+  width: 100%;
+  height: 584px;
 }
 .map__geo {
   position: absolute;
@@ -942,6 +956,7 @@ position: relative;
 .modal__menu {
   display: none;
 }
+
 @media screen and (max-width: 1400px) {
   .hero__cards {
     display: grid;
@@ -961,7 +976,7 @@ position: relative;
     max-width: 330px;
   }
   .hero__cards {
-    margin-bottom: -62px;
+    margin-bottom: 24px;
   }
   .service__img {
     width: 530px;
@@ -1017,7 +1032,7 @@ position: relative;
     display: none;
   }
   .modal__active {
-    left: 0;
+    left: 9px
   }
   .mail {
     display: none;
@@ -1028,7 +1043,7 @@ position: relative;
   }
   .modal__menu {
     /* display: flex; */
-    width: 759px;
+    width: 100%;
     height: 910px;
     background: #FFF;
   }
@@ -1115,7 +1130,7 @@ position: relative;
     font-size: 26px;
   }
   .service__content {
-    margin-top: 300px;
+    margin-top: 273px;
   }
   .service__text {
     width: 265px;
@@ -1201,7 +1216,7 @@ position: relative;
   .travellers__user {
     position: absolute;
     top: 421px;
-    left: -38px;
+    left: -15px;
     z-index: -1;
 }
   .travellers__seconduser {
@@ -1263,7 +1278,7 @@ position: relative;
     margin-left: 0;
   }
   .registration__button {
-    left: 564px;
+    left: 572px;
     top: 177px;
     width: 80px;
     height: 80px;
@@ -1289,8 +1304,8 @@ position: relative;
     margin-left: 40px;
   }
   .map__geo {
-    left: 318px;
-    top: 84px;
+    left: 331px;
+    top: 233px;
   }
 }
 @media screen and (max-width: 677px) {
@@ -1404,6 +1419,8 @@ position: relative;
   .hero__card {
     width: 238px;
     height: 130px;
+    border-radius: 0;
+
   }
   .card-title {
     font-size: 17px;
@@ -1423,7 +1440,7 @@ position: relative;
     background: url(/img/about-mobile.png) no-repeat center / cover;
   }
   .service__content {
-    margin-top: 600px;
+    margin-top: 650px;
   }
   .service__title {
     font-size: 24px;
@@ -1459,8 +1476,8 @@ position: relative;
     width: 270px;
     height: 62px;
     flex-shrink: 0;
-    margin-top: 25px;
-    margin-left: -22px;
+    margin-top: 57px;
+    margin-left: -17px;
   }
   .button__text {
     font-size: 18px;
@@ -1486,12 +1503,16 @@ position: relative;
     order: 2;
     margin-top: 60px;
   }
+  .countries__mobile-img {
+    margin-top: 10px;
+  }
   .travellers__cards {
     display: block;
     margin-left: -30px;
   }
   .card__imagetwo {
     margin: 0;
+    margin-top: 9px;
   }
 
   .travellers__title {
@@ -1682,6 +1703,7 @@ position: relative;
 }
 .map__img-mobile {
   display: block;
+  height: 100%;
 }
 .footer {
   width: 320px;

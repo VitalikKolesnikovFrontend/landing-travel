@@ -16,19 +16,30 @@ document.addEventListener('DOMContentLoaded', function(event) {
   let logoMenuBurger = document.querySelector('.menu-burger-icon')
   let logoMobile = document.querySelector('.logo__mobile');
   let businessText = document.querySelector('.business__text');
+  let body = document.querySelector('body');
   console.log(businessText);
   
   
   menuBurger.addEventListener('click', () => {
-
-
-    modalMenu.style.display = 'flex'
-    heroCards.style.bottom = '-731' + 'px'
-    header.classList.add('fixed')
-    logo.src = '/img/logo-dark.png' 
-    logoMenuBurger.src = '/img/icon_close.png'
-    menuBurger.style.background = '#fff'
-    logoMobile.src = '/img/logo_mobile 1.png'
+    if(modalMenu.style.display === '') {
+      modalMenu.style.display = 'flex'
+      body.style.position = 'fixed'
+      header.classList.add('fixed')
+      logo.src = '/img/logo-dark.png' 
+      logoMenuBurger.src = '/img/icon_close.png'
+      menuBurger.style.background = '#fff'
+      logoMenuBurger.style.backgroundColor = 'white'
+      logoMobile.src = '/img/logo_mobile 1.png'
+    } else {
+      modalMenu.style.display = ''
+      body.style.position = 'static'
+      header.classList.remove('fixed')
+      logo.src = '/img/logo-light.png' 
+      logoMenuBurger.src = '/img/Menu-icon_tablet.png'
+      logoMenuBurger.style.background = '#182044'
+      logoMobile.src = '/img/lobo_mobile.svg'
+    }
+   
   })
   document.onscroll = function () {
     let scroll = window.scrollY;
@@ -41,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
       logoMenuBurger.src = '/img/icon_menu_mobile-light.png'
       logoMenuBurger.style.background = '#fff'
       logoMobile.src = '/img/logo_mobile 1.png'
-       heroCards.style.bottom = '186' + 'px'
+   
     } else {
       header.classList.remove('fixed')
       navItemOne.classList.remove('light')
@@ -52,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
       logoMenuBurger.style.background = '#182044'
       logoMobile.src = '/img/lobo_mobile.svg'
     }
-    // document.body.style.paddingTop = headerH + 'px';
+  
   }
 
 
