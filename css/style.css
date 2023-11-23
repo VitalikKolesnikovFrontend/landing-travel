@@ -958,33 +958,291 @@ position: relative;
 }
 
 @media screen and (max-width: 1400px) {
-  .hero__cards {
-    display: grid;
-    grid-template-columns: 50% 50%;
+  .phone {
+    display: none;
   }
-  .hero__text {
-    font-size: 22px;
+  .modal__active {
+    left: 9px
   }
-  .hero__secondtext {
-    font-size: 17px;
+  .mail {
+    display: none;
   }
-  .hero__image {
-    max-width: 380px;
+  .menu__burger {
+    display: flex;
+    
+  }
+  .modal__menu {
+    /* display: flex; */
+    width: 100%;
+    height: 910px;
+    background: #FFF;
+  }
+  .modal__menu-list {
+    display:flex;
+    flex-direction: column;
+    padding-left: 95px;
+    padding-top: 95px;
+  }
+  .modal__menu-item {
+    color: #192144;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 71px; /* 118.333% */
+    text-transform: uppercase;
+  }
+  .phone__number_modal {
+    color: #192144;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+  }
+  .mail__name_modal {
+    color: #192144;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+  }
+  .registration__contacts_modal {
+    margin-top: 169px;
+  }
+  .modal__social-items {
+    margin-top: 149px;
+  }
+  .modal__social-item {
+    margin-left: 37px;
   }
   .hero__title {
-    font-size: 43px;
-    max-width: 330px;
+    width: 400px;
+    height: 210px;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+}
+  .hero__content {
+    display: block;
+    position: relative;
   }
-  .hero__cards {
-    margin-bottom: 24px;
+.hero__cards {
+    bottom: 100px;
+    flex-wrap: wrap;
+    left: 100px;
+}
+.hero__card {
+  width: 271px;
+}
+.hero__image {
+  display: none;
+}
+.traveller__mobile {
+  display: block;
+  display: block;
+  position: absolute;
+  top: 143px;
+  left: 248px;
+  width: 300px;
+}
+.hero__text {
+  font-size: 26px;
+  }
+  .hero__secondtext {
+    font-size: 21px;
+  }
+
+  .header_light {
+    display: none;
+  }
+
+  .service__subtitle {
+    width: 308px;
+    font-size: 26px;
+  }
+  .service__content {
+    margin-top: 273px;
+  }
+  .service__text {
+    width: 265px;
+    font-size: 20px;
+    margin-top: 150px;
   }
   .service__img {
-    width: 530px;
-    height: 565px;
+    display: none;
+  }
+  .service__tablet {
+    display: block;
+  }
+  .button__service {
+    margin-bottom: 50px;
+  }
+  .button {
+    width: 276px;
+    height: 80px;
+  }
+  .countries__content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 73px;
+    padding-bottom: 80px;
+  }
+  .countries__cards {
+    order: 2;
+  } 
+  .countries__info {
+    order: 1;
+    margin-left: 0;
+    margin-right: 151px;
+  }
+  .countries__title {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .countries__subtitle {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    width: 378px;
+  }
+  .button__countries {
+    display: none;
+  }
+  .button__tablet {
+    display: flex;
+    order: 3;
+    width: 618px;
+    height: 82px;
+  }
+  .countries__rectangle {
+    position: absolute;
+    left: 25px;
+    top: 461px;
 }
-.service__subtitle {
-  width: 512px;
+  .travellers__title {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .travellers__subtitle {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    width: 427px;
+  }
+  .travellers__text {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    width: 260px;
+    margin-bottom: 59px;
+  }
+  .travellers__content {
+    display: block;
+  }
+  .button__travellers {
+    display: none;
+  }
+  .travellers__user {
+    position: absolute;
+    top: 421px;
+    left: -15px;
+    z-index: -1;
 }
+  .travellers__seconduser {
+    position: absolute;
+    top: 60px;
+    left: 371px;
+    z-index: -1;
+  }
+  .profile__title {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .profile__price {
+    width: 198px;
+    height: 285px;
+  }
+  .price__rates {
+    top: 205px;
+    right: 50px;
+    width: 100px;
+    height: 100px;
+  }
+  .price__list {
+    padding: 0;
+  }
+  .profile {
+    padding-top: 74px;
+    padding-bottom: 41px;
+  }
+  .business__text {
+    color: #132576;
+    font-family: Blogger Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .registration__title {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    width: 393px;
+    margin: auto;
+  }
+  .registration__text {
+    text-align: center;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 300;
+    
+  }
+  .registration__input {
+    width: 616px;
+  }
+  .registration__contacts {
+    display: block;
+  }
+  .registration__mail {
+    margin-left: 0;
+  }
+  .registration__button {
+    left: 572px;
+    top: 177px;
+    width: 80px;
+    height: 80px;
+  }
+  .button__text-registration {
+    display: none;
+  }
+  .button__img {
+    margin-left: 28px;
+  }
+  .address__content {
+    display: block;
+  }
+  .address__button {
+    margin-top: 44px;
+    width: 618px;
+    margin-left: 25px;
+  }
+  .address__text {
+    margin-right: 70px;
+  }
+  .address__name {
+    margin-left: 40px;
+  }
+  .map__geo {
+    left: 331px;
+    top: 233px;
+  }
+}
+@media screen and (max-width: 677px) {
+  .hero {
+    
+    background: url(/img/globe-back-mobile\ 1.png) no-repeat center / cover;
+  }
 }
 
 @media screen and (max-width: 927px) {
@@ -1096,9 +1354,10 @@ position: relative;
     position: relative;
   }
 .hero__cards {
-    bottom: 100px;
+    bottom: 125px;
     flex-wrap: wrap;
     left: 100px;
+    justify-content: start;
 }
 .hero__card {
   width: 271px;
@@ -1704,6 +1963,7 @@ position: relative;
 .map__img-mobile {
   display: block;
   height: 100%;
+  width: 100%;
 }
 .footer {
   width: 320px;
@@ -1734,6 +1994,16 @@ position: relative;
 }
 .modal__menu-list {
   padding-left: 0px;
+}
+.modal__active {
+  width: 304px;
+  height: 690px;
+  top: -87px;
+}
+.modal__button {
+  width: 304px;
+  height: 108px;
+  top: 581px;
 }
 }
 

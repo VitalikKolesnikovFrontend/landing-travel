@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
   let logoMobile = document.querySelector('.logo__mobile');
   let businessText = document.querySelector('.business__text');
   let body = document.querySelector('body');
+  let reg = document.querySelector('.registration__content')
   console.log(businessText);
   
   
@@ -77,6 +78,14 @@ document.addEventListener('DOMContentLoaded', function(event) {
   })
 
   closeBtn.addEventListener('click', () => {
+    modal.classList.remove('modal__active');
+    modal.classList.add('modal');
+  })
+  businessText.addEventListener('click', () => {
+    modal.classList.remove('modal');
+    modal.classList.add('modal__active')
+  })
+  reg.addEventListener('click', () => {
     modal.classList.remove('modal__active');
     modal.classList.add('modal');
   })
