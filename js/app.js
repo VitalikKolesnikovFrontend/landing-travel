@@ -18,8 +18,30 @@ document.addEventListener('DOMContentLoaded', function(event) {
   let businessText = document.querySelector('.business__text');
   let body = document.querySelector('body');
   let reg = document.querySelector('.registration__content')
+  let modalItemService = document.querySelector('.modal__menu-item')
+  let modalItemCountries = document.querySelector('#modCountries')
+  let modalItemTravellers = document.querySelector('#modTravellers')
+
+  
   console.log(businessText);
   
+  modalItemTravellers.addEventListener('click', () => {
+    body.style.position = '';
+    modalMenu.style.display = '';
+    header.classList.remove('fixed')
+  })
+
+  modalItemCountries.addEventListener('click', () => {
+    body.style.position = '';
+    modalMenu.style.display = '';
+    
+  })
+
+  modalItemService.addEventListener('click', () => {
+    body.style.position = '';
+    modalMenu.style.display = '';
+    
+  })
   
   menuBurger.addEventListener('click', () => {
     if(modalMenu.style.display === '') {

@@ -43,9 +43,9 @@
   </header>
   <div class="modal__menu">
     <div class="modal__menu-list">
-      <a href="" class="modal__menu-item">о сервисе</a>
-      <a href="" class="modal__menu-item">направления</a>
-      <a href="" class="modal__menu-item">попутчики</a>
+      <a href="#service" class="modal__menu-item">о сервисе</a>
+      <a href="#countries" id="modCountries" class="modal__menu-item">направления</a>
+      <a href="#travellers" id="modTravellers" class="modal__menu-item">попутчики</a>
       <div class="registration__contacts registration__contacts_modal">
         <div class="registration__phone">
           <button  class="contacts__button">
@@ -79,25 +79,26 @@
             <p class="hero__secondtext">Мурат Эльтазин главный редактор газеты «гаджетлайф»</p>
           </div>
           <img src="/img/traveller-illustration-tablet 1.png" alt="traveller-mobile" class="traveller__mobile">
+          <div class="hero__cards">
+            <div class="hero__card hero__card_one">
+              <p class="card-title">Выберите направление</p>
+              <p class="card-count">1</p>
+            </div>
+            <div class="hero__card hero__card_two">
+              <p class="card-title">Изучите идеи путешественников</p>
+              <p class="card-count">2</p>
+            </div>
+            <div class="hero__card hero__card_three">
+              <p class="card-title">Находите тех, кто похож на вас</p>
+              <p class="card-count">3</p>
+            </div>
+            <div class="hero__card hero__card_four">
+              <p class="card-title">Путешествуйте вместе!</p>
+              <p class="card-count">4</p>
+            </div>
+          </div>
         </div>
-        <div class="hero__cards">
-          <div class="hero__card hero__card_one">
-            <p class="card-title">Выберите направление</p>
-            <p class="card-count">1</p>
-          </div>
-          <div class="hero__card hero__card_two">
-            <p class="card-title">Изучите идеи путешественников</p>
-            <p class="card-count">2</p>
-          </div>
-          <div class="hero__card hero__card_three">
-            <p class="card-title">Находите тех, кто похож на вас</p>
-            <p class="card-count">3</p>
-          </div>
-          <div class="hero__card hero__card_four">
-            <p class="card-title">Путешествуйте вместе!</p>
-            <p class="card-count">4</p>
-          </div>
-        </div>
+
       </div>
     </section>
 
@@ -381,10 +382,13 @@
   </section>
    
   <section class="map">
-    <div class="map__content">
+    <!-- <div class="map__content">
       <img src="/img/geo.png" alt="map" class="map__img">
       <img src="img/map-mobile.png" alt="" class="map__img-mobile">
       <img src="/img/icon_map.png" alt="geo" class="map__geo">
+    </div> -->
+    <div class="map__box">
+      <iframe class="map__frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036257198223!2d30.320472477369183!3d59.93871916209349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1700822013643!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </section>
   
